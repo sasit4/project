@@ -1,0 +1,211 @@
+.container {
+    background-color: transparent;
+    padding-top: 16px;
+}
+
+/* header */
+.menutop {
+    padding: 22px;
+}
+
+.brand {
+    font-weight: 700;
+    letter-spacing: .3px
+}
+
+.list-unstyled {
+    margin-left: 150px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*discover*/
+
+
+.discover {
+    background-image: url(image/task5backimg.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.hero-section {
+    padding: 80px 20px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #ff7f50;
+}
+
+.hero-text {
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn-orange {
+    background-color: #ff7f50;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.top{
+    margin-top: 15px;
+}
+.papular {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+/* cards */
+.card-dest {
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(19, 19, 19, 0.06);
+}
+.im1{
+    background-image: url(image/task5dragon.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.im2{
+    background-image: url(image/task5beach.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.im3{
+    background-image: url(image/task5airbollon.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.im4{
+    background-image: url(image/task5breach.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+
+
+.card-dest img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.chip {
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid #eee
+}
+
+/* stories */
+.burgerimg{
+    background-image: url(image/task5\ burger.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.story-card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start
+}
+
+.story-card img {
+    margin-right: 20px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+/* trekker */
+
+.trekker {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+
+.level5 .trekker .trekkerimg img {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover
+}
+
+
+.trekkerimg2 {
+  display: flex;
+  gap: 7px;
+}
+
+.trekkerside1 img {
+  height: 330px;
+  border-radius: 20px;
+  margin-left: 60px;
+
+}
+
+.trekkerside2 img {
+  height: 250px;
+  width: 260px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.trekkerside2 p {
+  font-size: small;
+}
+
+
+/* newsletter */
+.newsletter {
+    background-image: url(image/task5\ desetmountain.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 14px;
+    padding: 50px;
+    height: 400px;
+}
+
+.newsletter .form-control {
+    max-width: 420px
+}
+
