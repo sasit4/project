@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"></script>
+
+<body>
+
+    <div class="container">
+
+        <header class="site-header bg-transparent">
+            <div class="container-xl">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="brand">
+                            <h4> <i class="fa-solid fa-plane-departure" style="color: #138086;"></i>GLOBE TREKKER</h4>
+                        </div>
+                        <nav class="d-none d-md-block">
+                            <ul class="list-unstyled d-flex gap-3 mb-0">
+                                <li><a href="#">Destinations</a></li>
+                                <li><a href="#destinations">Travel plan</a></li>
+                                <li><a href="#stories">Inspiration</a></li>
+                                <li><a href="#about">Shop</a></li>
+                                <li><a href="#about">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <form class="d-none d-md-block">
+                            <i class="fa-solid fa-magnifying-glass" style="transform: translateX(170%);"></i>
+                            <input type="text" value="Search" style="text-align: center; border-radius: 20px;">
+                        </form>
+                        <button class="btn btn-dark btn-sm d-none d-md-inline"
+                            style="border-radius: 20px;padding: 7px 25px 7px;">Sign In</button>
+                        <button class="btn btn-light d-md-none" data-bs-toggle="offcanvas"
+                            data-bs-target="#mobileNav">☰</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- mobile offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileNav">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Globe Trekker</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="mb-3"><input class="form-control" placeholder="Search"></form>
+                <ul class="list-unstyled">
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#destinations">Travel plan</a></li>
+                    <li><a href="#stories">Inspiration</a></li>
+                    <li><a href="#about">Shop</a></li>
+                    <li><a href="#about">Blog</a></li>
+                </ul>
+                <div class="mt-3"><button class="btn btn-primary w-100">Sign In</button></div>
+            </div>
+        </div>
+
+        <!-- discover -->
+
+
+        <div class="discover hero-section">
+            <div class="row align-items-center">
+                <!-- Left text -->
+                <div class="col-lg-6  text-lg-start">
+                    <h1 class="hero-title">
+                        Discover the World’s <span style="color:#138086 ;">Hidden</span> Wonders
+                    </h1>
+                    <p class="hero-text">
+                        Find the unique moments and hidden gems that ignite unforgettable experiences.
+                        From rare encounters to remarkable destinations, we help you uncover the spark
+                        that turns every trip into a cherished story.
+                    </p>
+                    <button class="btn" style="background-color: #138086;border-radius: 20px; color: white;">Plan your
+                        trip</button>
+                </div>
+
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="image-grid row g-3">
+                        <div class="col-6">
+                            <img src="image/task5railway.png" alt="Place 1" style="margin-top: 50px;">
+                        </div>
+                        <div class="col-6">
+                            <img src="image/task5mountain.png" alt="Place 2" style="height: 300px;">
+                            <img src="image/task5beach.png" alt="Place 3" style="height: 300px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="top">
+                <h1>Top Destinations</h1>
+                <div class="papular d-none d-lg-flex">
+                    <strong>Papular</strong>
+
+                    <p>USA</p>
+                    <p>Europe</p>
+                    <p>Asia</p>
+                    <p>Africa & Middle East</p>
+                    <p>Australia & The Pacific</p>
+                    <p>Canada</p>
+                    <p>More &#9660;</p>
+                    <button style="border-radius: 20px; padding: 6px 29px 6px;">Explore all destinations</button>
+
+                </div>
+            </div>
+
+
+            <div class="row row-cols-1  row-cols-md-4 mt-4">
+
+                <div class="col">
+                    <div class="card-dest">
+                        <div class="im1">.</div>
+                        <div class="heading"><strong>Golden Bridge,Ba Na Hills </strong>
+                            <div class="text-muted small">Vietnam</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-dest">
+                        <div class="im2">.</div>
+                        <div class="heading"><strong>Dubrovnik</strong>
+                            <div class="text-muted small">Croatia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-dest">
+                        <div class="im3">.</div>
+                        <div class="heading"><strong>Hot Air Ballon Cappadocia</strong>
+                            <div class="text-muted small">Turkey</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-dest">
+                        <div class="im4">.</div>
+                        <div class="p-2"><strong>Sydney Harbour Bridge</strong>
+                            <div class="text-muted small">Australia</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Latest Stories -->
+            <section id="stories" class="mt-4">
+                <h3>Latest Stories </h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-lg-6">
+                        <div class="card-dest p-3">
+                            <div class=" gap-3">
+                                <div class="burgerimg">.</div>
+
+                                <div>
+                                    <small class="text-primary ">Food & Drink</small>
+                                    <h5 class="mt-2">Los Angeles food & drink guide: 10 things to try in Los,California
+                                    </h5>
+                                    <p class="text-muted"> at,2004 .4 min read</p>
+                                    <p class="text-muted">A short intro in california,almost any problem can be solved
+                                        with
+                                        a
+                                        <br>of avacados,yoga,and dogs: After all,food,health,and...
+                                    </p>
+                                    <a href="#" class="small">Read more →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="row row-cols-1 row-cols-sm-2 g-3">
+                            <div class="col-12">
+                                <div class="story-card p-2">
+                                    <img src="image/task5marget.png">
+                                    <div>
+                                        <h6 class="text-primary">Shopping</h6>
+                                        <h6 style="font-weight: bold;">15 South London Markets You'lightblue
+                                            <br>Love:Best Markets in South
+                                            <br>London
+                                            </h5>
+                                            <p class="text-muted">Aug 15,2004 . 6 min read</p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="story-card p-2">
+                                    <img src="image/task5hotal.png">
+                                    <div>
+                                        <h6 class="text-primary">Hotels</h6>
+                                        <h6 style="font-weight: bold;">10 incredible hotels around the
+                                            <br>world you can book with points in
+                                            <br>2024
+                                            </h5>
+
+                                            <p class="text-muted">Aug 10,2024 . 5min read</p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="story-card p-2">
+                                    <img src="image/task5budget.png">
+                                    <div>
+                                        <h6 class="text-primary">Travel Budget</h6>
+                                        <h6 style="font-weight: bold;">Visiting Chicago on a Budget:
+                                            <br>Affordable Eata and Attraction
+                                            <br>Deals
+                                        </h6>
+                                        <p class="text-muted">Aug 02,2024 . 8min read</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Trekker's highlights -->
+
+            <section class="level5 mt-5" id="shop">
+                <h1>Trekker's Highlights</h1>
+                <div class="trekker  gap-3 mt-3">
+
+                    <div class="trekkerimg col-12 col-lg-6">
+                        <div class="d-flex mt-4 mb-3">
+                            <div style="margin-right: 30px;">
+                                <img src="image/task5travellogo.png">
+                            </div>
+                            <div>
+                                <strong>Maria Angelica</strong> <br><small class="text-muted">— Travel
+                                    Photographer</small>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="para mb-1 text-muted small"><i class="fa-solid fa-star"
+                                    style="color: #FFD43B; font-size: 20px;"></i><i class="fa-solid fa-star"
+                                    style="color: #FFD43B; font-size: 20px;"></i><i class="fa-solid fa-star"
+                                    style="color: #FFD43B; font-size: 20px;"></i><i class="fa-solid fa-star"
+                                    style="color: #FFD43B; font-size: 20px;"></i><i class="fa-solid fa-star"
+                                    style="color: #FFD43B; font-size: 20px;"></i><br>
+                                <strong style="font-size: 15px; font-weight: bold;">Every journey is a story,and every
+                                    photograph is a
+                                    heartbeat of that
+                                    moment. </strong><br>
+                                An unforgettable journey through Turkey.Hot air balloons,narrow streets and local
+                                <br> flavors — a photographic.Across the deserts and oceans,chasing colors,cultures,and
+                                <br>stories-a travel photographer's dairy os wonder and conection. Every frame tells a
+                                story
+                                — of
+                                <br>people, colors, and moments that never return.From the golden sunrise over misty
+                                mountains to
+                                <br> the quiet streets glowing after rain,each click is a heartbeat, a memory
+                                <br> frozen in light.I wandered through ancient lanes, tasting the flavors of local
+                                life,
+                                <br> capturing laughter, tradition, and dreams in the eyes of
+                                <br> but in shades, shadows, and smiles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="trekkerimg2 g-2 mt-2 d-none d-lg-flex">
+                        <div class="trekkerside1">
+                            <img src="image/task5 air girl.png" alt="">
+                        </div>
+                        <div class="trekkerside2">
+                            <img src="image/task5mumbai.png" alt="">
+                            <p>Chhatrapati Shivaji Maharai Termius (CSMT) <br> in Mumbai,India</p>
+                            <input type="text" value="See More highlight"
+                                style="margin-left: 80px; border-radius: 20px; background-color: transparent;">
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+           
+
+            <!-- Newsletter -->
+            <section class="mt-5 newsletter text-white">
+                <div class="row" style=" margin-top: 10px; margin-left: 80px; ">
+                    <div class="col-md-7 col-12">
+                        <h2 style="word-spacing: 9px;">Get Your Travel Inspiration</h2>
+                        <h2> Straight to Your Inbox</h2>
+
+                        <form class="d-flex gap-2 mt-4" style="width: 310px;">
+                            <input class="form-control" placeholder="Enter Address" style="border-radius: 20px;">
+                            <button class="btn"
+                                style="background-color: #138086; color: white; border-radius: 20px; padding: 5px 25px 5px;">Subscribe</button>
+                        </form>
+                        <p class="mt-4" style="font-size: 16px;">Subscribe to our newsletters and exclusiv
+                            promotions.Read our
+                            <u>Privacy Policy</u>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Footer -->
+
+            <footer class="mt-4">
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="col-md-1 ms-3">
+                        <div class="brand">
+                            <h4>GLOBE TREKKER</h4>
+                        </div>
+                        <p class="small">Follow as on</p>
+                        <i class="icon">
+                            <i class="fa-brands fa-facebook" style="color: #4a4a4a; font-size:30px ;"></i>
+                            <i class="fa-brands fa-telegram" style="color: #4a4a4a; font-size:30px ;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: #4a4a4a; font-size:30px ;"></i>
+                            <i class="fa-brands fa-youtube" style="color: #4a4a4a; font-size:30px ;"></i>
+                            <i class="fa-brands fa-google-plus" style="color: #4a4a4a; font-size:30px ;"></i>
+                        </i>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>About us</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li>About Global Trekker</li>
+                            <li>Contect Us</li>
+                            <li>Terms and Conditions</li>
+                            <li>Privacy Policy</li>
+                            <li>Work For Us</li>
+                            <li>Cookie Settings</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Travel Interest</h5>
+                        <ul class="list-unstyled  text-muted">
+                            <li>Family Vacation</li>
+                            <li>Honeymoon</li>
+                            <li>Adventure</li>
+                            <li>Art and Culture</li>
+                            <li>Wlidlife and Nature</li>
+                            <li>Travel on a Budget</li>
+                            <li>Road Trips</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Top Destinations</h5>
+                        <ul class="list-unstyled  text-muted">
+                            <li>Paris</li>
+                            <li>Italy</li>
+                            <li>Londan</li>
+                            <li>New York City</li>
+                            <li>Tokyo</li>
+                            <li>Los Angeles</li>
+                            <li>Scotland</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Guidebook Stop</h5>
+                        <ul class="list-unstyled  text-muted">
+                            <li>Destinations Guide</li>
+                            <li>Non-Engine Guides</li>
+                            <li>Shooping Guides</li>
+                            <li>Kid's Travel Guides</li>
+                        </ul>
+                    </div>
+
+                </div>
+        </div>
+        </footer>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
